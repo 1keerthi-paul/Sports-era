@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sports App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sports App Dashboard</h1>
+    <nav>
+      <button id="btnHome">Home</button>
+      <button id="btnScores">Scores</button>
+      <button id="btnStats">Stats</button>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="page active">
+      <h2>Welcome!</h2>
+      <p>Select a section to view match info.</p>
+    </section>
+    <section id="scores" class="page">
+      <h2>Upcoming Matches</h2>
+      <ul id="matchList"></ul>
+    </section>
+    <section id="stats" class="page">
+      <h2>Match Statistics</h2>
+      <table id="statsTable">
+        <thead><tr><th>Team</th><th>Shots</th><th>Possession</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
