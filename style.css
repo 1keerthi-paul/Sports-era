@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#0066cc; color:#fff; padding:1em; display:flex; justify-content: space-between; }
+nav button { margin-left: 0.5em; padding:0.5em 1em; background:#fff; color:#0066cc; border:none; cursor:pointer; }
+.page { display:none; padding:1em; }
+.page.active { display:block; }
+ul { list-style: none; padding:0; }
+li { padding:0.5em 0; border-bottom:1px solid #ccc; }
+table { width:100%; border-collapse: collapse; margin-top:1em; }
+th, td { padding:0.5em; border:1px solid #ccc; text-align:center; }
